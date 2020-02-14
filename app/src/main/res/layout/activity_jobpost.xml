@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobPostActivity"
+    android:padding="15dp"
+    >
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textLongMessage"
+        android:ems="10"
+        android:background="@null"
+        android:hint="제목"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/edit_title"
+        android:layout_marginTop="10dp"
+        android:background="#AAAAAA"/>
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주소 : "
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/line1"
+        android:layout_alignLeft="@+id/line1"/>
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:layout_alignBaseline="@id/text_address"
+        android:layout_alignBottom="@id/text_address"
+        android:layout_toRightOf="@+id/text_address"/>
+
+    <TextView
+        android:id="@+id/text_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기간 : "
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_address"
+        android:layout_alignLeft="@+id/text_address"/>
+
+    <RadioGroup
+        android:id="@+id/check_period"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@id/text_period"
+        android:layout_alignBottom="@+id/text_period"
+        android:layout_alignTop="@+id/text_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/check_short"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="단기"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <RadioButton
+            android:id="@+id/check_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="장기"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작 날짜 : "
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_period"
+        android:layout_alignLeft="@+id/text_period"/>
+
+    <EditText
+        android:id="@+id/edit_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="datetime"
+        android:layout_alignBaseline="@+id/text_start"
+        android:layout_alignBottom="@id/text_start"
+        android:layout_toRightOf="@+id/text_start" />
+    <TextView
+        android:id="@+id/text_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마친 날짜 : "
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_start"
+        android:layout_alignLeft="@+id/text_start"/>
+
+    <EditText
+        android:id="@+id/edit_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:inputType="datetime"
+        android:layout_alignBaseline="@id/text_end"
+        android:layout_alignBottom="@id/text_end"
+        android:layout_toRightOf="@+id/text_end"/>
+
+    <TextView
+        android:id="@+id/text_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카테고리"
+        android:textSize="15dp"
+        android:layout_below="@+id/edit_end"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/check_category"
+        android:orientation="vertical"
+        android:layout_below="@+id/text_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/check_yoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yoga / Pilates"
+            android:textSize="15dp"
+            android:layout_below="@+id/text_category"
+            android:layout_marginTop="15dp"/>
+        <RadioButton
+            android:id="@+id/check_swim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swim"
+            android:textSize="15dp"
+            android:layout_below="@+id/check_yoga"
+            android:layout_marginTop="15dp"/>
+        <RadioButton
+            android:id="@+id/check_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health"
+            android:textSize="15dp"
+            android:layout_below="@+id/check_swim"
+            android:layout_marginTop="15dp"/>
+        <RadioButton
+            android:id="@+id/check_aerobic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aerobic"
+            android:textSize="15dp"
+            android:layout_below="@+id/check_health"
+            android:layout_marginTop="15dp"/>
+        <RadioButton
+            android:id="@+id/check_etc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기타"
+            android:textSize="15dp"
+            android:layout_below="@+id/check_aerobic"
+            android:layout_marginTop="15dp"/>
+
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cursorVisible="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/check_category"
+        android:layout_above="@+id/btn_insert"
+        android:ems="10"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/boxline" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="등록하기"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,241 @@
+{
+  "project_info": {
+    "project_number": "1047366508005",
+    "firebase_url": "https://j1s4-e1660.firebaseio.com",
+    "project_id": "j1s4-e1660",
+    "storage_bucket": "j1s4-e1660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047366508005:android:2b51efb5b90cbcaa",
+        "android_client_info": {
+          "package_name": "com.example.a9ing_kesipan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047366508005-9u28rnc56034vncnbt35vv4vr0eiq477.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a9ing_kesipan",
+            "certificate_hash": "b7d834d61c154651cd543873adf705fb0263de90"
+          }
+        },
+        {
+          "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF0bAenxK5bF7WJTM8l7jakqImgGRcbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047366508005:android:d3fa47d531a29c81",
+        "android_client_info": {
+          "package_name": "com.example.a9ingforports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047366508005-45ci7745nd15kctef4h9lbkf99ar0rtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a9ingforports",
+            "certificate_hash": "f71f26bb58b00ecc2245934ab0f043195b0b3b12"
+          }
+        },
+        {
+          "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF0bAenxK5bF7WJTM8l7jakqImgGRcbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047366508005:android:04f77d35cae96bf4",
+        "android_client_info": {
+          "package_name": "com.example.a9ingforsports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047366508005-7kmek181ejvub91hj686mfv0ft4averf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a9ingforsports",
+            "certificate_hash": "f71f26bb58b00ecc2245934ab0f043195b0b3b12"
+          }
+        },
+        {
+          "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF0bAenxK5bF7WJTM8l7jakqImgGRcbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047366508005:android:44eb77ce8512bd22",
+        "android_client_info": {
+          "package_name": "com.example.joboffer_post"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047366508005-j7t4n9g8t2vu9laq9k71eaqajsden209.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joboffer_post",
+            "certificate_hash": "b7d834d61c154651cd543873adf705fb0263de90"
+          }
+        },
+        {
+          "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF0bAenxK5bF7WJTM8l7jakqImgGRcbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047366508005:android:3dd8b266c483e785",
+        "android_client_info": {
+          "package_name": "com.example.sportsfor9ing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047366508005-vauqbh5j832nl7h5vusjbpltn3espfrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sportsfor9ing",
+            "certificate_hash": "b7d834d61c154651cd543873adf705fb0263de90"
+          }
+        },
+        {
+          "client_id": "1047366508005-f6sq2b69ia628r67i6g8vnl52vip490d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sportsfor9ing",
+            "certificate_hash": "7ea48492c7a53d2d383060348644d7680be5a173"
+          }
+        },
+        {
+          "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF0bAenxK5bF7WJTM8l7jakqImgGRcbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047366508005:android:713a073d78b54e0d",
+        "android_client_info": {
+          "package_name": "com.example.sportsfor9ingjieun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047366508005-2h3vgbffkvpmp1mpvohues07ddcdvs6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sportsfor9ingjieun",
+            "certificate_hash": "796a3339a545293f3a71cf39dfecfd983b32a828"
+          }
+        },
+        {
+          "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJF0bAenxK5bF7WJTM8l7jakqImgGRcbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047366508005-2cihkiv8je8rvtnb9bmh77ofr1cfmltv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a9ingforsports">
+    <uses-permission android:name="android.permisson.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-feature android:name="android:hardware.camera" android:required="true"></uses-feature>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"> </activity>
+        <activity android:name=".MakeAccountActivity"> </activity>
+        <activity android:name=".CreateEmployeeActivity"> </activity>
+        <activity android:name=".CreateEmployerActivity"> </activity>
+        <activity android:name=".HomeActivity"> </activity>
+        <activity android:name=".ShoppingActivity"> </activity>
+        <activity android:name=".MypageActivity"> </activity>
+        <activity android:name=".MyqActivity"> </activity>
+        <activity android:name=".JobPostActivity"/>
+        <activity android:name=".JobListActivity"/>
+        <activity android:name=".JobShowActivity"/>
+        <activity android:name=".RecoListActivity"/>
+        <activity android:name=".ResumeActivity"> </activity>
+        <activity android:name=".ResumeSettingActivity"> </activity>
+        <activity android:name=".ResumeShowActivity"> </activity>
+        <activity android:name=".FreeBoardListActivity"></activity>
+        <activity android:name=".FreeBoardPostActivity"></activity>
+        <activity android:name=".FreeBoardShowActivity"></activity>
+        <activity android:name=".HomeActivity2"> </activity>
+        <activity android:name=".MypageActivity2"> </activity>
+        <activity android:name=".OfferViewActivity2"> </activity>
+        <activity android:name=".ResumeListActivity"></activity>
+        <provider
+            android:authorities="com.example.a9ingforsports.fileprovider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

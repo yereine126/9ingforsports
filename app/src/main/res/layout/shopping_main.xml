@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="157dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/newbal"
+                        android:layout_width="300dp"
+                        android:layout_height="140dp"
+                        android:layout_span="3"
+                        android:src="@drawable/newbalance_logo" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/xexymix"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/xexymix_logo" />
+
+                    <ImageView
+                        android:id="@+id/adidas"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/adidas_logo" />
+
+                    <ImageView
+                        android:id="@+id/descente"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/descente_logo" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/arena"
+                        android:layout_width="250dp"
+                        android:layout_height="140dp"
+                        android:layout_span="2"
+                        android:src="@drawable/arena_logo" />
+
+                    <ImageView
+                        android:id="@+id/nike"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/nike_logo" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/andar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:src="@drawable/andar_logo" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/fila"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/fila_logo" />
+
+                    <ImageView
+                        android:id="@+id/mizuno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_span="2"
+                        android:src="@drawable/mizuno_logo" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/under"
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp"
+                        android:layout_span="3"
+                        android:src="@drawable/underarmour_logo" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
